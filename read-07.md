@@ -1,10 +1,39 @@
 ### What Google Learned From Its Quest to Build the Perfect Team
 like most 25-year-olds, Julia Rozovsky wasn’t sure what she wanted to do with her life. She had worked at a consulting firm, but it wasn’t a good match. Then she became a researcher for two professors at Harvard, which was interesting but lonely. Maybe a big corporation would be a better fit. Or perhaps a fast-growing start-up. All she knew for certain was that she wanted to find a job that was more social. ‘‘I wanted to be part of a community, part of something people were building together,’’ she told me. She thought about various opportunities — Internet companies, a Ph.D. program — but nothing seemed exactly right. So in 2009, she chose the path that allowed her to put off making a decision: She applied to business schools and was accepted by the Yale School of Management.
 
-When Rozovsky arrived on campus, she was assigned to a study group carefully engineered by the school to foster tight bonds. Study groups have become a rite of passage at M.B.A. programs, a way for students to practice working in teams and a reflection of the increasing demand for employees who can adroitly navigate group dynamics. A worker today might start the morning by collaborating with a team of engineers, then send emails to colleagues marketing a new brand, then jump on a conference call planning an entirely different product line, while also juggling team meetings with accounting and the party-planning committee. To prepare students for that complex world, business schools around the country have revised their curriculums to emphasize team-focused learning.
+### Dark Sky API — Overview
+The Dark Sky API allows you to look up the weather anywhere on the globe, returning (where available):
 
-Every day, between classes or after dinner, Rozovsky and her four teammates gathered to discuss homework assignments, compare spreadsheets and strategize for exams. Everyone was smart and curious, and they had a lot in common: They had gone to similar colleges and had worked at analogous firms. These shared experiences, Rozovsky hoped, would make it easy for them to work well together. But it didn’t turn out that way. ‘‘There are lots of people who say some of their best business-school friends come from their study groups,’’ Rozovsky told me. ‘‘It wasn’t like that for me.’’
+* Current weather conditions
+* Minute-by-minute forecasts out to one hour
+* Hour-by-hour and day-by-day forecasts out to seven days
+* Hour-by-hour and day-by-day observations going back decades
+* Severe weather alerts in the US, Canada, European Union member nations, and Israel
 
-Instead, Rozovsky’s study group was a source of stress. ‘‘I always felt like I had to prove myself,’’ she said. The team’s dynamics could put her on edge. When the group met, teammates sometimes jockeyed for the leadership position or criticized one another’s ideas. There were conflicts over who was in charge and who got to represent the group in class. ‘‘People would try to show authority by speaking louder or talking over each other,’’ Rozovsky told me. ‘‘I always felt like I had to be careful not to make mistakes around them.’’
+### Weather API Call Types
+We provide two types of API requests to retrieve the weather anywhere in the world:
 
-One of her favorite competitions asked teams to come up with a new business to replace a student-run snack store on Yale’s campus. Rozovsky proposed a nap room and selling earplugs and eyeshades to make money. Someone else suggested filling the space with old video games. There were ideas about clothing swaps. Most of the proposals were impractical, but ‘‘we all felt like we could say anything to each other,’’ Rozovsky told me. ‘‘No one worried that the rest of the team was judging them.’’ Eventually, the team settled on a plan for a micro­gym with a handful of exercise classes and a few weight machines. They won the competition. (The micro­gym — with two stationary bicycles and three treadmills — still exists.)
+The Forecast Request returns the current weather forecast for the next week.
+The Time Machine Request returns the observed or forecast weather conditions for a date in the past or future.
+Weather Conditions
+The Dark Sky API offers a full collection of meteorological conditions in 39 different languages, including:
+
+* Apparent (feels-like) temperature
+* Atmospheric pressure
+* Cloud cover
+* Dew point
+* Humi dity
+* Liquid precipitation rate
+* Moon phase
+* Nearest storm distance
+* Nearest storm direction
+* Ozone
+* Precipitation type
+* Snowfall
+* Sun rise/set
+* Temperature
+* Text summaries
+* UV index
+* Wind gust
+* Wind speed
+* Wind direction
